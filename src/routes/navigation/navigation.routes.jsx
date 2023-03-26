@@ -7,10 +7,22 @@ const Navigation = () => {
     return (
         <>
             <div className='navigation-bar'>
-                <Link to='/' style={{color: 'black'}}><p className="link">Home</p></Link>
-                <Link to='/projects-page' style={{color: 'black'}}><p className="link">Projects</p></Link>
-                <Link to='/' style={{color: 'black'}}><p className="link">About Me</p></Link>
-                <Link to='/' style={{color: 'black'}}><p className="link">Contact</p></Link>
+                <div className="nav-link">
+                    <Link to='/' style={{color: 'black'}}><p className="link">Home</p></Link>
+                    <div className='underline'></div>
+                </div>
+                <div className="nav-link">
+                    <Link to='/projects-page' style={{color: 'black'}}><p className="link">Projects</p></Link>
+                    <div className='underline'></div>
+                </div>
+                <div className="nav-link">
+                    <Link to='/' style={{color: 'black'}}><p className="link">About Me</p></Link>
+                    <div className='underline'></div>
+                </div>
+                <div className="nav-link">
+                    <Link to='/' style={{color: 'black'}}><p className="link">Contact</p></Link>
+                    <div className='underline'></div>
+                </div>
             </div>
             <Outlet />
         </>

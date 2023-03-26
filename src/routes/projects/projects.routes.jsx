@@ -4,6 +4,9 @@ import React from "react";
 import SingleProject from "../../components/single-project/single-project.component";
 import Footer from "../../components/footer/footer.component";
 
+// videos
+import clothingAppVideo from '../../assets/crown-clothing.mp4';
+
 // styles
 import './projects.styles.scss';
 
@@ -13,11 +16,13 @@ const ProjectsPage = () => {
         {
             id: 1,
             title: 'Crown Clothing App',
-            skills: ['html', 'css', 'styled components', 'Sava Script', 'react', 'react router', 'redux toolkit', 'firebase', 'stripe', 'netlify functions'],
+            skills: ['html', 'css', 'styled components', 'java Script', 'react', 'react router', 'redux toolkit', 'firebase', 'stripe', 'netlify functions'],
             description: 'The Clothing React app is a beautifully designed and functional web application that allows users to browse, search, and purchase a wide range of clothing items. The app is built using React, a popular and efficient JavaScript library, and features a clean and intuitive user interface. ',
             photo: 'https://cdn.discordapp.com/attachments/624665829681791017/1089231535699410964/image.png',
             sourceCodeLink: 'https://github.com/Mateusz-best-creator/clothingApp',
-            livePageLink: 'https://glittering-dasik-8709b7.netlify.app/'
+            livePageLink: 'https://glittering-dasik-8709b7.netlify.app/',
+            videoElement: clothingAppVideo,
+
         },
         
         {

@@ -1,6 +1,9 @@
 import React, {useEffect, useRef} from "react";
 
+import VideoPlayer from "../../video-player/video-player.component";
+
 // import Typed from "typed.js";
+
 
 import './home-page.styles.scss';
 
@@ -33,6 +36,7 @@ const HomePage = () => {
           <h6>
             Hello I'm Mateusz Wieczorek, <br /><span ref={el}></span>
           </h6>
+          <VideoPlayer />
         </div>
       </div>
     </>
