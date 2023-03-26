@@ -1,0 +1,18 @@
+
+.single-skil-container {
+    height: 35px;
+    min-width: 100px;
+    padding: 3px 12px;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px 15px 7px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(115%);
+    }
+}
