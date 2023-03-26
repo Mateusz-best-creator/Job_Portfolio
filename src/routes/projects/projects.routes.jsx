@@ -6,6 +6,8 @@ import Footer from "../../components/footer/footer.component";
 
 // videos
 import clothingAppVideo from '../../assets/crown-clothing.mp4';
+import nasaBlogVideo from '../../assets/nasa-blog.mp4';
+import mathGameVideo from '../../assets/math-game.mp4';
 
 // styles
 import './projects.styles.scss';
@@ -32,7 +34,8 @@ const ProjectsPage = () => {
             description: "One of the key features of the NASA Best Picture of the Day blog is its integration with NASA's APIs, which allow the application to dynamically fetch and display the latest images as they are released by NASA. This ensures that users always have access to the most up-to-date and compelling images of the cosmos.",
             photo: 'https://cdn.discordapp.com/attachments/624665829681791017/1089231535699410964/image.png',
             sourceCodeLink: 'https://github.com/Mateusz-best-creator/NASA-pictures-generator',
-            livePageLink: 'https://mateusz-best-creator.github.io/NASA-pictures-generator/'
+            livePageLink: 'https://mateusz-best-creator.github.io/NASA-pictures-generator/',
+            videoElement: nasaBlogVideo,
         },
         {
             id: 3,
@@ -41,7 +44,8 @@ const ProjectsPage = () => {
             description: "The Math Sprint game is a fast-paced and engaging web application built using JavaScript, designed to help users improve their math skills while having fun. The game challenges players to solve a series of math problems as quickly and accurately as possible.",
             photo: 'https://cdn.discordapp.com/attachments/619577954279882752/1071082657884147742/image.png',
             sourceCodeLink: 'https://github.com/Mateusz-best-creator/Math_Game',
-            livePageLink: 'https://mateusz-best-creator.github.io/Math_Game/'
+            livePageLink: 'https://mateusz-best-creator.github.io/Math_Game/',
+            videoElement: mathGameVideo,
         },
     ]
 

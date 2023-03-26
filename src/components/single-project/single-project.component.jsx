@@ -3,7 +3,7 @@ import React from "react";
 import SkillIcon from "../skill-icon/skill-icon.component";
 
 // react router
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 import SingleProjectDetails from "../single-project-details/single-project-details.component";
 
@@ -15,7 +15,12 @@ import './single-project.styles.scss';
 
 const SingleProject = ({projectData}) => {
     
-    const { title, skills, description, photo, sourceCodeLink, livePageLink, videoElement } = projectData;
+    const { title, skills, description, photo, sourceCodeLink, livePageLink, videoElement, id } = projectData;
+    const navigate = useNavigate();
+
+    const handleNavigation = (id) => {
+        navigate(`/project-in-detail-${id}`)
+    }
 
     return (
         <div className='single-project-container'>
@@ -33,11 +38,9 @@ const SingleProject = ({projectData}) => {
                     <div className='button-border'><button><a target="_blank" href={sourceCodeLink}>Source Code</a></button></div>
                     <div className='button-border'><button><a target="_blank" href={livePageLink}>Live Project</a></button></div>
                     <div className='button-border'>
-                        <Link to='clothing-app-details'>
-                            <button>
-                                Project In Details
-                            </button>
-                        </Link> 
+                        <button onClick={() => handleNavigation(id)}>
+                            Project In Details
+                        </button>
                     </div>
                 </div>
                 <div className='project-description-container'>
@@ -46,7 +49,6 @@ const SingleProject = ({projectData}) => {
             </div>
             <div className='project-photo-container'>
                 <VideoPlayer style={{width: '500px', maxWidth: '95%'}} videoElement={videoElement} />
-                {/* <img className='project-photo' alt='' src={photo} /> */}
             </div>
         </div>
         
