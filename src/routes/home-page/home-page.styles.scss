@@ -19,6 +19,15 @@
 
         .dynamic-text {
             height: 110px;
+
+            .home-icon {
+                font-size: 2rem;
+                color: black;
+
+                &:hover {
+                    color: red;
+                }
+            }
         }
 
         h6 {

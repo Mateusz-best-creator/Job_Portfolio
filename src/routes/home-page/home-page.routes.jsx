@@ -37,7 +37,7 @@ const HomePage = () => {
       <div className="home-page-container">
         <div className="home-page-name">
           <h6 className='dynamic-text'>
-            Hello I'm Mateusz <a style={{color: 'black', fontSize: '2rem'}} href='https://github.com/Mateusz-best-creator?tab=repositories' target='_blank'><i className="fab fa-github"></i></a> Wieczorek, <br /><span style={{color: 'rgba(231, 111, 12, 1)'}} ref={el}></span>
+            Hello I'm Mateusz <a className='home-icon' href='https://github.com/Mateusz-best-creator?tab=repositories' target='_blank'><i className="fab fa-github"></i></a> Wieczorek, <br /><span style={{color: 'rgba(231, 111, 12, 1)'}} ref={el}></span>
           </h6>
           <p className='home-page-text'>
             I am a <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}>front end developer</span>. I love building 

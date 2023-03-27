@@ -72,10 +72,18 @@ const AboutPage = () => {
         <div className='history-container'>
             <div className='history-text'>
                 <h2>My Programming journey:</h2>
-                <p className='history-note'>It all started about a year ago when I decided to teach myself how to code. I had always been curious about how technology worked, and I wanted to have the ability to create something with my own hands. So I started learning Python</p>
-                <p className='history-note'>After some time, I soon realized that I wanted to learn more than just Python. I was intrigued by web development and the idea of building websites from scratch. So, I started learning HTML, CSS, and JavaScript.</p>
-                <p className='history-note'>After working on several projects, I decided to learn React and technologies connected with that liblary such as redux, styled components or firebase.</p>
-                <p className='history-note'>Learning React was challenging, but I was motivated by my love for web development. I spent countless hours practicing and building projects with React, and now, it has become my favorite library to work with.</p>
+                <p className='history-note'>
+                    It all started about a year ago when I decided to teach myself how to code. I had always been curious about how <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}>technology worked</span>, and I wanted to have the ability to create something with my own hands. So I started learning <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}>Python</span>
+                    </p>
+                <p className='history-note'>
+                    After some time, I soon realized that I wanted to learn more than just Python. I was intrigued by web development and the idea of building websites from scratch. So, I started learning <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}>HTML</span>, <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}>CSS</span>, and <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}>JavaScript</span>.
+                </p>
+                <p className='history-note'>
+                    After working on several projects, I decided to learn <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}>React</span> and technologies connected with that liblary such as <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}>redux</span>, <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}>styled components</span>styled components or <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}>firebase</span>.
+                </p>
+                <p className='history-note'>
+                    Learning React was challenging, but I was motivated by my love for web development. I spent countless hours practicing and building projects with React, and now, it has become my favorite library to work with.
+                </p>
             </div>
             <div className='history-photo'>
                 <div className='journey-photo' style={{width: '90%', height: 'auto', margin: '10px', position: 'relative'}}><iframe allowFullScreen frameBorder="0" style={{width: '100%', height: '450px', borderRadius: '5px'}} src="https://lucid.app/documents/embedded/e855e598-264e-401e-8abf-239f1a2bfcef" id="8HnJhD1uRY6y"></iframe></div>

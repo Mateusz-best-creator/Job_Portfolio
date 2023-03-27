@@ -23,18 +23,19 @@ const ContactPage = () => {
                 </div>
             </div>
             <main className="pa4 black-80">
-                <form className="measure center">
+                {/* <h3 style={{textAlign: 'center'}}>You can send me an email:</h3> */}
+                <form className="measure center" action="https://formspree.io/f/xqkodvdr" method="POST">
                     <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
                     <div className="mt3">
-                        <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
+                        <label className="db fw6 lh-copy f6" htmlFor="email-address">Your Email</label>
                         <input className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email-address"  id="email-address" />
                     </div>
                     <div className="mv3">
-                        <label className="db fw6 lh-copy f6" htmlFor="password">Message</label>
-                        <textarea className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password" />
+                        <label className="db fw6 lh-copy f6" htmlFor="message">Message</label>
+                        <textarea className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="message" name="message"  id="message" />
                     </div>
                     </fieldset>
-                        <button className="contact-button">Send Message</button>
+                        <button type='submit' className="contact-button">Send Message</button>
                 </form>
             </main>
         </div>
