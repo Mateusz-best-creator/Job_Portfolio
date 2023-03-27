@@ -1,0 +1,139 @@
+
+.about-page-container {
+    margin: 5rem auto 0rem auto;
+    width: 1200px;
+    max-width: 95%;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+
+    .about-me-container {
+        width: 50%;
+
+        @media(max-width: 1000px) {
+            width: 100%;
+        }
+
+        .about-page-note {
+            line-height: 25px;
+        }
+    }
+
+    .photo-container {
+        height: 500px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media(max-width: 1000px) {
+            display: none;
+        }
+
+        img {
+            width: 400px;
+            border-radius: 50%;
+        }
+    }
+
+    .about-page-buttons-container {
+        padding: 1rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .button-link {
+            margin-right: 5rem;
+
+            display: block;
+                width: 100%;
+                border-radius: 5px;
+                box-shadow: 0px 5px 30px 5px rgba(0,0,0,0.4);
+                width: 180px;
+                height: 40px;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                background-color: rgba(231, 111, 12, 1);
+                color: white;
+                font-size: 1rem;
+    
+                &:hover {
+                    filter: brightness(115%);
+                }
+        }
+    }
+}
+
+.about-page-skills-container {
+    
+    margin: 1rem auto;
+    width: 1200px;
+    max-width: 95%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+
+    
+
+    .technologies-container {
+        background: linear-gradient(#e66465, #9198e5);
+        
+        padding: 1rem 0.7rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        box-shadow: 0px 5px 30px 5px rgba(0,0,0,0.4);
+    }
+}
+
+.history-container {
+    background: linear-gradient( to right, #ffffff, #f5f5f5, #d85151);
+    border-radius: 5px;
+    box-shadow: 0px 5px 30px 5px rgba(0,0,0,0.4);
+    padding: 1rem;
+    margin: 5rem auto;
+    width: 1200px;
+    max-width: 95%;
+    height: auto;
+    display: flex;
+
+    @media(max-width: 1000px) {
+        background: white;
+    }
+
+    .history-text {
+        width: 50%;
+        height: 100%;
+
+        @media(max-width: 1000px) {
+            width: 100%;
+            
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .history-note {
+            line-height: 25px;
+        }
+    }
+
+    .history-photo {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media(max-width: 1000px) {
+            display: none;
+        }
+
+        .journey-photo {
+            width: 90%;
+        }
+    }
+}

@@ -16,11 +16,11 @@ const Navigation = () => {
                     <div className='underline'></div>
                 </div>
                 <div className="nav-link">
-                    <Link to='/' style={{color: 'black'}}><p className="link">About Me</p></Link>
+                    <Link to='/about-page' style={{color: 'black'}}><p className="link">About Me</p></Link>
                     <div className='underline'></div>
                 </div>
                 <div className="nav-link">
-                    <Link to='/' style={{color: 'black'}}><p className="link">Contact</p></Link>
+                    <Link to='/contact-page' style={{color: 'black'}}><p className="link">Contact</p></Link>
                     <div className='underline'></div>
                 </div>
             </div>

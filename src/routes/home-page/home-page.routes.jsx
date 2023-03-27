@@ -2,7 +2,6 @@ import React, {useEffect, useRef} from "react";
 
 import { Link } from "react-router-dom";
 
-import Footer from '../../components/footer/footer.component';
 
 import Typed from "typed.js";
 
@@ -41,8 +40,10 @@ const HomePage = () => {
             Hello I'm Mateusz <a style={{color: 'black', fontSize: '2rem'}} href='https://github.com/Mateusz-best-creator?tab=repositories' target='_blank'><i className="fab fa-github"></i></a> Wieczorek, <br /><span style={{color: 'rgba(231, 111, 12, 1)'}} ref={el}></span>
           </h6>
           <p className='home-page-text'>
-            I am a front end developer. I love building 
-            attractive and effective web applications.
+            I am a <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}>front end developer</span>. I love building 
+            <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}> attractive </span>and
+            <span style={{color: '#dd223b', fontWeight: '600', fontSize: '1.1rem'}}> effective </span>
+            web applications that exceed expectations.
             Hit the button below to see what I can do for your business.
           </p>
           <Link to='projects-page'>
