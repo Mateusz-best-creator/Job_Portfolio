@@ -23,7 +23,6 @@ const ContactPage = () => {
                 </div>
             </div>
             <main className="pa4 black-80">
-                {/* <h3 style={{textAlign: 'center'}}>You can send me an email:</h3> */}
                 <form className="measure center" action="https://formspree.io/f/xqkodvdr" method="POST">
                     <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
                     <div className="mt3">
