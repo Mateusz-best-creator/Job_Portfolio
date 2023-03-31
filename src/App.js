@@ -12,8 +12,10 @@ import SingleProjectDetails from './components/single-project-details/single-pro
 
 // video
 import clothingAppVideo from './assets/crown-clothing.mp4';
+import smartBrainVideo from './assets/smart-brain.mp4';
 import nasaBlogVideo from './assets/nasa-blog.mp4';
 import mathGameVideo from './assets/math-game.mp4'
+import alienInvasionVideo from './assets/alien_invasion.mp4'
 
 const App = () => {
 
@@ -34,6 +36,17 @@ const App = () => {
     },
     {
       id: 2,
+      basicDescription: "smart",
+      purpose: "smart",
+      explanation: "Tsmart",
+      technologiesExplanation: [
+        "smart"
+        ],
+      explanationProblems: "problems",
+      videoElement: smartBrainVideo,
+    },
+    {
+      id: 3,
       basicDescription: "The blog's homepage features a daily selection of the best images from NASA's archives, with each image accompanied by a detailed caption that provides context and information about the featured celestial object or phenomenon.",
       purpose: "The purpose and goal of the NASA blog showcasing the best picture of the day is to provide users with a daily dose of breathtaking images captured by NASA's various telescopes, spacecraft, and observatories. The blog serves as a platform to showcase NASA's groundbreaking discoveries and research, as well as to inspire and educate people about the wonders of the universe.",
       explanation: "The project that was built using HTML, CSS, JavaScript, local storage, and connected with the NASA API is a web application that allows users to browse and explore NASA's vast database of space-related content, including images, videos, and articles.",
@@ -46,7 +59,7 @@ const App = () => {
       videoElement: nasaBlogVideo,
     },
     {
-      id: 3,
+      id: 4,
       basicDescription: "The Math Sprint game is a fast-paced and engaging web application built using JavaScript, designed to help users improve their math skills while having fun.",
       purpose: "The purpose and goal of the math sprint game is to provide an engaging and interactive platform for users to practice and improve their math skills. The game is designed to challenge users with timed math questions.",
       explanation: "'The math sprint' game built in JavaScript is a web application designed to test and improve user's math skills. One unique feature of this app is that it saves the user's best times in local storage, allowing them to track their progress and strive to improve their performance over time.",
@@ -57,6 +70,17 @@ const App = () => {
       explanationProblems: "As a developer building the math sprint game from scratch in JavaScript, I encountered several challenges along the way. One of the biggest obstacles was creating a dynamic and responsive user interface that would allow users to take timed math quizzes and challenges. I had to ensure that the user interface was intuitive and easy to use, while also incorporating the necessary features and functionality to track user progress and save best times.",
       
       videoElement: mathGameVideo,
+    },
+    {
+      id: 5,
+      basicDescription: "pygame",
+      purpose: "pygame",
+      explanation: "Tpygame",
+      technologiesExplanation: [
+        "pygame"
+        ],
+      explanationProblems: "problems",
+      videoElement: alienInvasionVideo,
     },
   ]
 
@@ -70,6 +94,8 @@ const App = () => {
         <Route path='project-in-detail-1' element={<SingleProjectDetails descriptionData={SingleProjetcsInDetails[0]} />} />
         <Route path='project-in-detail-2' element={<SingleProjectDetails descriptionData={SingleProjetcsInDetails[1]} />} />
         <Route path='project-in-detail-3' element={<SingleProjectDetails descriptionData={SingleProjetcsInDetails[2]} />} />
+        <Route path='project-in-detail-4' element={<SingleProjectDetails descriptionData={SingleProjetcsInDetails[3]} />} />
+        <Route path='project-in-detail-5' element={<SingleProjectDetails descriptionData={SingleProjetcsInDetails[4]} />} />
       </Route>
     </Routes>
   );

@@ -5,8 +5,6 @@ import SkillIcon from "../skill-icon/skill-icon.component";
 // react router
 import { useNavigate } from "react-router";
 
-import SingleProjectDetails from "../single-project-details/single-project-details.component";
-
 // video 
 import VideoPlayer from "../../video-player/video-player.component";
 

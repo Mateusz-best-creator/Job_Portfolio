@@ -23,7 +23,7 @@ const ContactPage = () => {
                 </div>
             </div>
             <main className="pa4 black-80">
-                <form className="measure center" action="https://formspree.io/f/xqkodvdr" method="POST">
+                <form className="measure center" action="https://formsubmit.co/el/szachmat2004@gmail.com" method="POST">
                     <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
                     <div className="mt3">
                         <label className="db fw6 lh-copy f6" htmlFor="email-address">Your Email</label>
