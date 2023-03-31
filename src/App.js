@@ -36,13 +36,15 @@ const App = () => {
     },
     {
       id: 2,
-      basicDescription: "smart",
-      purpose: "smart",
-      explanation: "Tsmart",
+      basicDescription: "The Smart-Brain app is a sophisticated web application that is built using React, Node.js, Express.js, PostgreSQL, and Knex library.",
+      purpose: "The purpose of the project built in React using Node.js, Express.js, PostgreSQL, and bcrypt library is to create a secure and efficient web application that allows users to register and login to their accounts. The project aims to leverage the latest technologies and best practices to ensure that user passwords are saved in a secure way using the bcrypt library, which is a powerful and widely-used encryption library.",
+      explanation: "",
       technologiesExplanation: [
-        "smart"
+        "React is used to build the user interface (UI) and handle user interactions. React allows me to break down the UI into smaller, reusable components, making it easier to manage and update the app.",
+        "Node.js is known for its ability to handle a large number of connections and requests simultaneously, making it well-suited for building scalable applications. Express.js provides a flexible and modular framework for building Node.js applications, allowing developers to easily add new features and scale the application as needed.",
+        "PostgreSQL is used as the database management system, allowing for easy storage and retrieval of user information. The use of bcrypt library ensures that passwords are encrypted and stored in a secure way, protecting user data from potential security breaches."
         ],
-      explanationProblems: "problems",
+      explanationProblems: "First problem that I faced of when building this app was managing dependencies between the different technologies. I had to ensure that the correct versions of Node.js, Express.js, PostgreSQL, and Knex library are installed and compatible with each other. I also had to to ensure that the database is properly configured, that the correct authentication mechanisms are in place, and that the data is properly encrypted and secured.",
       videoElement: smartBrainVideo,
     },
     {
@@ -71,17 +73,6 @@ const App = () => {
       
       videoElement: mathGameVideo,
     },
-    {
-      id: 5,
-      basicDescription: "pygame",
-      purpose: "pygame",
-      explanation: "Tpygame",
-      technologiesExplanation: [
-        "pygame"
-        ],
-      explanationProblems: "problems",
-      videoElement: alienInvasionVideo,
-    },
   ]
 
   return (
@@ -95,7 +86,6 @@ const App = () => {
         <Route path='project-in-detail-2' element={<SingleProjectDetails descriptionData={SingleProjetcsInDetails[1]} />} />
         <Route path='project-in-detail-3' element={<SingleProjectDetails descriptionData={SingleProjetcsInDetails[2]} />} />
         <Route path='project-in-detail-4' element={<SingleProjectDetails descriptionData={SingleProjetcsInDetails[3]} />} />
-        <Route path='project-in-detail-5' element={<SingleProjectDetails descriptionData={SingleProjetcsInDetails[4]} />} />
       </Route>
     </Routes>
   );

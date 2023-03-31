@@ -55,15 +55,6 @@ const ProjectsPage = () => {
             livePageLink: 'https://mateusz-best-creator.github.io/Math_Game/',
             videoElement: mathGameVideo,
         },
-        {
-            id: 5,
-            title: 'pygame',
-            skills: ['python', 'pygame'],
-            description: "pygame",
-            sourceCodeLink: 'https://github.com/Mateusz-best-creator/pygameShipAliensGame/',
-            livePageLink: 'https://mateusz-best-creator.github.io/Math_Game/',
-            videoElement: alignInvasionVideo,
-        },
     ]
 
     return (

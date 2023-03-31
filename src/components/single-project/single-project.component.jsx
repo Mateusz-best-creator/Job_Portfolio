@@ -13,7 +13,7 @@ import './single-project.styles.scss';
 
 const SingleProject = ({projectData}) => {
     
-    const { title, skills, description, photo, sourceCodeLink, livePageLink, videoElement, id } = projectData;
+    const { title, skills, description, sourceCodeLink, livePageLink, videoElement, id } = projectData;
     const navigate = useNavigate();
 
     const handleNavigation = (id) => {

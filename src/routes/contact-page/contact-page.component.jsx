@@ -23,7 +23,7 @@ const ContactPage = () => {
                 </div>
             </div>
             <main className="pa4 black-80">
-                <form className="measure center" action="https://formsubmit.co/el/szachmat2004@gmail.com" method="POST">
+                <form className="measure center" action="https://formsubmit.co/69268a0f6654fa507867ce0fe4a62e77" method="POST" >
                     <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
                     <div className="mt3">
                         <label className="db fw6 lh-copy f6" htmlFor="email-address">Your Email</label>
@@ -34,7 +34,7 @@ const ContactPage = () => {
                         <textarea className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="message" name="message"  id="message" />
                     </div>
                     </fieldset>
-                        <button type='submit' className="contact-button">Send Message</button>
+                    <button type='submit' className="contact-button">Send Message</button>
                 </form>
             </main>
         </div>
