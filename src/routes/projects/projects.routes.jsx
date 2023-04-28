@@ -9,7 +9,7 @@ import clothingAppVideo from '../../assets/crown-clothing.mp4';
 import nasaBlogVideo from '../../assets/nasa-blog.mp4';
 import mathGameVideo from '../../assets/math-game.mp4';
 import smartBrainVideo from '../../assets/smart-brain.mp4';
-import alignInvasionVideo from '../../assets/alien_invasion.mp4';
+import mealsToGoVideo from '../../assets/meals-to-go.mp4';
 
 // styles
 import './projects.styles.scss';
@@ -29,13 +29,14 @@ const ProjectsPage = () => {
         },
         {
             id: 2,
-            title: 'smart brain',
-            skills: ['html', 'css', 'Java Script', 'react', 'node', 'express', 'PostgreSQL', 'knex' ],
-            description: "Smart-Brain is a modern web application built using React on the front-end and Node.js on the back-end with PostgreSQL as its database management system.",
-            sourceCodeLink: 'https://github.com/Mateusz-best-creator/brain_FrontEnd.git',
-            livePageLink: 'https://brain-frontend.onrender.com/',
-            videoElement: smartBrainVideo,
+            title: 'Meals To Go',
+            skills: ['html','Java Script', 'react native','expo' , 'styled components','expo map' ,'google/apple maps', 'ANDROID/IOS camera', 'react-context', 'firebase', 'async storage'],
+            description: "Meals To Go is a react native application that allows user to search for resturants in different parts of the world using expo-map and google/apple map.",
+            sourceCodeLink: 'https://github.com/Mateusz-best-creator/MealsToGo',
+            livePageLink: 'https://expo.dev/@mateusz915/MealsToGo?serviceType=classic&distribution=expo-go',
+            videoElement: mealsToGoVideo,
         },
+
         
         {
             id: 3,
