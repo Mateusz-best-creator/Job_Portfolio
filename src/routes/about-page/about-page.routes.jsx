@@ -85,9 +85,9 @@ const AboutPage = () => {
                     Learning React was challenging, but I was motivated by my love for web development. I spent countless hours practicing and building projects with React, and now, it has become my favorite library to work with.
                 </p>
             </div>
-            <div className='history-photo'>
+            {/* <div className='history-photo'>
                 <div className='journey-photo' style={{width: '90%', height: 'auto', margin: '10px', position: 'relative'}}><iframe allowFullScreen frameBorder="0" style={{width: '100%', height: '450px', borderRadius: '5px'}} src="https://lucid.app/documents/embedded/e855e598-264e-401e-8abf-239f1a2bfcef" id="8HnJhD1uRY6y"></iframe></div>
-            </div>
+            </div> */}
         </div>
         <Footer />
         </>
