@@ -36,10 +36,17 @@ const ProjectsPage = () => {
             livePageLink: 'https://expo.dev/@mateusz915/MealsToGo?serviceType=classic&distribution=expo-go',
             videoElement: mealsToGoVideo,
         },
-
-        
         {
             id: 3,
+            title: 'Look For Pictures',
+            skills: ['html', 'css', 'Java Script', 'react', 'node', 'express', 'bcrypt', 'postqresql'],
+            description: "The Smart-Brain app is a sophisticated web application that is built using React, Node.js, Express.js, PostgreSQL, and Knex library.",
+            sourceCodeLink: 'https://github.com/Mateusz-best-creator/brain_FrontEnd',
+            livePageLink: 'https://brain-frontend.onrender.com',
+            videoElement: smartBrainVideo,
+        },
+        {
+            id: 4,
             title: 'Nasa Documentation',
             skills: ['html', 'css', 'Java Script', 'local storage'],
             description: "One of the key features of the NASA Best Picture of the Day blog is its integration with NASA's APIs, which allow the application to dynamically fetch and display the latest images as they are released by NASA.",
@@ -48,7 +55,7 @@ const ProjectsPage = () => {
             videoElement: nasaBlogVideo,
         },
         {
-            id: 4,
+            id: 5,
             title: 'Math Sprint Game',
             skills: ['html', 'css', 'Java Script', 'local storage'],
             description: "The Math Sprint game is a fast-paced and engaging web application built using JavaScript, designed to help users improve their math skills while having fun.",

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 // video
 import VideoPlayer from "../../video-player/video-player.component";
@@ -17,6 +17,10 @@ const SingleProjectDetails = ({ descriptionData }) => {
     const handleNavigate = () => {
         navigate('/projects-page');
     }
+
+    useEffect(() => {
+        window. scrollTo(0, 0);
+    }, [descriptionData])
 
     return (
         <>

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Photo from '../../assets/astronaut.png'
 import Footer from "../../components/footer/footer.component";
 import TechnologyItem from "../../components/technology-icon/technology-icon.component";
@@ -17,6 +16,7 @@ import PythonLogo from '../../assets/python-logo.png';
 import BootstrapLogo from '../../assets/bootstrap-logo.png';
 import NodeLogo from '../../assets/node-js-logo.png';
 import SQLLogo from '../../assets/sql-logo.png';
+import TypeScriptLogo from '../../assets/typescript-logo.png';
 
 import { useNavigate } from "react-router-dom";
 
@@ -57,13 +57,15 @@ const AboutPage = () => {
                 <TechnologyItem logo={HtmlLogo} name={'HTML'} />
                 <TechnologyItem logo={CssLogo} name={'CSS'} />
                 <TechnologyItem logo={JavaScriptLogo} name={'JavaScript'} />
-                <TechnologyItem logo={PythonLogo} name={'Python'} />
+                <TechnologyItem logo={TypeScriptLogo} name={'TypeScript'} />
                 <TechnologyItem logo={ReactLogo} name={'React'} />
+                <TechnologyItem logo={ReactLogo} name={'React Native'} />
                 <TechnologyItem logo={ReduxLogo} name={'Redux'} />
                 <TechnologyItem logo={SassLogo} name={'Sass'} />
                 <TechnologyItem logo={BootstrapLogo} name={'Bootstrap'} />
                 <TechnologyItem logo={StyledComponentsLogo} name={'Styled Components'} />
                 <TechnologyItem logo={FirebaseLogo} name={'Firebase'} />
+                <TechnologyItem logo={PythonLogo} name={'Python'} />
                 <TechnologyItem logo={StripeLogo} name={'Stripe'} />
                 <TechnologyItem logo={NodeLogo} name={'Node'} />
                 <TechnologyItem logo={SQLLogo} name={'SQL'} />
