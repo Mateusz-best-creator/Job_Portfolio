@@ -39,7 +39,7 @@ const ProjectsPage = () => {
         {
             id: 3,
             title: 'Look For Pictures',
-            skills: ['html', 'css', 'Java Script', 'react', 'node', 'express', 'bcrypt', 'postqresql'],
+            skills: ['html', 'css', 'Java Script', 'react', 'node', 'express','knex', 'bcrypt', 'postqresql'],
             description: "The Smart-Brain app is a sophisticated web application that is built using React, Node.js, Express.js, PostgreSQL, and Knex library.",
             sourceCodeLink: 'https://github.com/Mateusz-best-creator/brain_FrontEnd',
             livePageLink: 'https://brain-frontend.onrender.com',

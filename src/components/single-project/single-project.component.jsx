@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 
 import SkillIcon from "../skill-icon/skill-icon.component";
 
@@ -11,7 +11,7 @@ import VideoPlayer from "../../video-player/video-player.component";
 // styling
 import './single-project.styles.scss';
 
-const SingleProject = ({projectData}) => {
+const SingleProject = memo(({projectData}) => {
     
     const { title, skills, description, sourceCodeLink, livePageLink, videoElement, id } = projectData;
     const navigate = useNavigate();
@@ -28,7 +28,7 @@ const SingleProject = ({projectData}) => {
                 <div className='skills-project-coctainer'>
                     {
                         skills.map((skill, index) => {
-                            return <SkillIcon key={index} skill={skill} />
+                            return <SkillIcon key={`${skill}-${index}`} skill={skill} />
                         })
                     }
                 </div>
@@ -51,6 +51,6 @@ const SingleProject = ({projectData}) => {
         </div>
         
     )
-}
+})
 
 export default SingleProject;

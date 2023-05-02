@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, memo, useCallback } from "react";
 
 // video
 import VideoPlayer from "../../video-player/video-player.component";
@@ -9,14 +9,14 @@ import { useNavigate } from "react-router";
 
 import './single-project-details.styles.scss';
 
-const SingleProjectDetails = ({ descriptionData }) => {
+const SingleProjectDetails = memo(({ descriptionData }) => {
 
     const navigate = useNavigate();
     const { basicDescription, purpose, explanation, technologiesExplanation, explanationProblems, videoElement } = descriptionData;
 
-    const handleNavigate = () => {
+    const handleNavigate = useCallback(() => {
         navigate('/projects-page');
-    }
+    }, [navigate])
 
     useEffect(() => {
         window. scrollTo(0, 0);
@@ -47,6 +47,6 @@ const SingleProjectDetails = ({ descriptionData }) => {
             <Footer />
         </>
     )
-}
+})
 
 export default SingleProjectDetails;

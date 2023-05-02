@@ -6,7 +6,7 @@ import 'react-html5video/dist/styles.css'
 import './video-player.styles.scss'
 
 const VideoPlayer = ({videoElement}) => {
-    console.log("video : ", videoElement, '/static/media/meals-to-go.e09f11e72aa3cc925fe4.mp4' === videoElement);
+
     return (
         <div className='video-container'>
             {

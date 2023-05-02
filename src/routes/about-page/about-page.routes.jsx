@@ -3,6 +3,7 @@ import Photo from '../../assets/astronaut.png'
 import Footer from "../../components/footer/footer.component";
 import TechnologyItem from "../../components/technology-icon/technology-icon.component";
 
+// Logos
 import HtmlLogo from '../../assets/html-logo.png';
 import CssLogo from '../../assets/css-logo.png';
 import StyledComponentsLogo from '../../assets/styled-components-logo.png';
@@ -18,6 +19,9 @@ import NodeLogo from '../../assets/node-js-logo.png';
 import SQLLogo from '../../assets/sql-logo.png';
 import TypeScriptLogo from '../../assets/typescript-logo.png';
 
+// optimizations hooks
+import { useCallback } from "react";
+
 import { useNavigate } from "react-router-dom";
 
 import './about-page.styles.scss';
@@ -26,9 +30,9 @@ const AboutPage = () => {
 
     const navigate = useNavigate();
 
-    const handleNavigate = (direction) => {
+    const handleNavigate = useCallback((direction) => {
         navigate(`/${direction}`);
-    }
+    }, [navigate]);
 
     return (
         <>
