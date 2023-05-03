@@ -47,7 +47,7 @@ const App = () => {
         "Styled Components: Styled Components is a popular library for styling React components. It allows developers to write CSS code inside their JavaScript code, making it easier to manage and maintain their styles.",
         "Expo Map API: The Expo Map API is a mapping library for React Native apps. It provides developers with a set of tools for displaying maps and integrating location-based services into their apps.",
       ],
-      explanationProblems: "I encountered several challenges. One of the most significant obstacles was integrating Expo-am, a state management library. Although Expo-am is a powerful tool, I found it challenging to integrate into my existing project. Ensuring that all components were properly connected to the state management system and that the data flow was correctly managed required significant time and effort.",
+      explanationProblems: "I encountered several challenges. One of the most significant obstacles was integrating Expo-map. Although Expo-map is a powerful tool, I found it challenging to integrate into my existing project. Ensuring that all components were properly connected to the state management system and that the data flow was correctly managed required significant time and effort.",
       videoElement: mealsToGoVideo,
     },
     {

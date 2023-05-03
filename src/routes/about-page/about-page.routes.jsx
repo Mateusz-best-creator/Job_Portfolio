@@ -17,7 +17,7 @@ import PythonLogo from '../../assets/python-logo.png';
 import BootstrapLogo from '../../assets/bootstrap-logo.png';
 import NodeLogo from '../../assets/node-js-logo.png';
 import SQLLogo from '../../assets/sql-logo.png';
-import TypeScriptLogo from '../../assets/typescript-logo.png';
+// import TypeScriptLogo from '../../assets/typescript-logo.png';
 
 // optimizations hooks
 import { useCallback } from "react";
@@ -61,7 +61,7 @@ const AboutPage = () => {
                 <TechnologyItem logo={HtmlLogo} name={'HTML'} />
                 <TechnologyItem logo={CssLogo} name={'CSS'} />
                 <TechnologyItem logo={JavaScriptLogo} name={'JavaScript'} />
-                <TechnologyItem logo={TypeScriptLogo} name={'TypeScript'} />
+                {/* <TechnologyItem logo={TypeScriptLogo} name={'TypeScript'} /> */}
                 <TechnologyItem logo={ReactLogo} name={'React'} />
                 <TechnologyItem logo={ReactLogo} name={'React Native'} />
                 <TechnologyItem logo={ReduxLogo} name={'Redux'} />
