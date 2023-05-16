@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from '../../assets/astronaut.png'
+import Photo from '../../assets/me.jpg'
 import Footer from "../../components/footer/footer.component";
 import TechnologyItem from "../../components/technology-icon/technology-icon.component";
 

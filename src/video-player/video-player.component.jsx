@@ -6,7 +6,7 @@ import 'react-html5video/dist/styles.css'
 import './video-player.styles.scss'
 
 const VideoPlayer = ({videoElement}) => {
-    console.log(videoElement)
+
     return (
         <div className='video-container'>
             {
